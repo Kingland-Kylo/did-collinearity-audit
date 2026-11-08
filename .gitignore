@@ -1,9 +1,6 @@
 .venv/
-__pycache__/
+**/原作者文件/
+**/.ipynb_checkpoints/
+**/__pycache__/
 *.py[cod]
-.ipynb_checkpoints/
 .env
-data/raw/
-output/*.executed.ipynb
-output/*.log
-.pytest_cache/
