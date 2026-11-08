@@ -1,0 +1,52 @@
+{
+  "comparisons": [
+    {
+      "n": 2807,
+      "states": 8,
+      "rank_FE": 99,
+      "rank_FE_D": 100,
+      "residual_D_ss": 143.49576645884403,
+      "identified": true,
+      "b": -0.019597792144748917,
+      "se": 0.004043564168149697,
+      "p": 0.0018634437692394655,
+      "ci_lower": -0.029159302039627293,
+      "ci_upper": -0.01003628224987054,
+      "wild_p": 0.0625,
+      "comparison": "Full sample"
+    },
+    {
+      "n": 2415,
+      "states": 7,
+      "rank_FE": 98,
+      "rank_FE_D": 99,
+      "residual_D_ss": 115.77534166766472,
+      "identified": true,
+      "b": -0.0167652519788546,
+      "se": 0.005979507078854201,
+      "p": 0.031008932276917558,
+      "ci_lower": -0.031396578714108184,
+      "ci_upper": -0.0021339252436010196,
+      "wild_p": 0.28125,
+      "comparison": "Exclude Mexico City"
+    },
+    {
+      "n": 2377,
+      "states": 7,
+      "rank_FE": 79,
+      "rank_FE_D": 80,
+      "residual_D_ss": 104.15018910179734,
+      "identified": true,
+      "b": -0.01746366824459398,
+      "se": 0.006020355865466594,
+      "p": 0.027307031757233275,
+      "ci_lower": -0.032194948359914315,
+      "ci_upper": -0.002732388129273641,
+      "wild_p": 0.21875,
+      "comparison": "Exclude Puebla"
+    }
+  ],
+  "placebo_count": 33,
+  "conventional_significant": 6,
+  "joint_max_abs_t_p": 0.1171875
+}

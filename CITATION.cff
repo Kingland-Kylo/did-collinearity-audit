@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: "Please cite the original paper and dataset when discussing this replication."
+title: "DID Collinearity Audit"
+type: software
+authors:
+  - name: "Kingland-Kylo"
+license: MIT
+repository-code: "https://github.com/Kingland-Kylo/did-collinearity-audit"
+references:
+  - type: article
+    authors:
+      - family-names: Motolinia
+        given-names: Lucia
+    title: "Electoral Accountability and Particularistic Legislation: Evidence from an Electoral Reform in Mexico"
+    journal: "American Political Science Review"
+    year: 2021
+    volume: 115
+    issue: 1
+    start: 97
+    end: 113
+    doi: "10.1017/S0003055420000672"
+  - type: data
+    title: "Replication materials for Motolinia (2021)"
+    doi: "10.7910/DVN/NOMC0H"
+    version: "1.0"

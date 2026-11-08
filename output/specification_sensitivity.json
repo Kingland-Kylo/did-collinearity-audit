@@ -1,0 +1,55 @@
+{
+  "purpose": "Design sensitivity; changed assumptions, not a repair of the original H2",
+  "models": [
+    {
+      "specification": "Original: state + month-year FE",
+      "identified": false,
+      "rank_controls": 59,
+      "rank_controls_D": 59,
+      "residual_D_ss": 1.0661408478409072e-26,
+      "beta": null,
+      "se": null,
+      "p": null
+    },
+    {
+      "specification": "State FE only",
+      "identified": true,
+      "rank_controls": 14,
+      "rank_controls_D": 15,
+      "residual_D_ss": 262.5313141822454,
+      "beta": 0.008757391813854152,
+      "se": 0.0034301746294626823,
+      "p": 0.024053604576628355
+    },
+    {
+      "specification": "State + calendar-year FE",
+      "identified": false,
+      "rank_controls": 20,
+      "rank_controls_D": 20,
+      "residual_D_ss": 7.19039653657209e-27,
+      "beta": null,
+      "se": null,
+      "p": null
+    },
+    {
+      "specification": "State FE + common linear trend",
+      "identified": true,
+      "rank_controls": 15,
+      "rank_controls_D": 16,
+      "residual_D_ss": 74.53065565394643,
+      "beta": 0.012303664535235246,
+      "se": 0.008956569853653989,
+      "p": 0.19275938409103946
+    },
+    {
+      "specification": "State FE + state-specific linear trends",
+      "identified": true,
+      "rank_controls": 28,
+      "rank_controls_D": 29,
+      "residual_D_ss": 12.843109870719566,
+      "beta": 0.031919687282059454,
+      "se": 0.040669213203995906,
+      "p": 0.4466026971969045
+    }
+  ]
+}
