@@ -67,4 +67,4 @@ $$ \boxed{ m^\ast(d^\ast,\mathbf x^\ast) =-\frac{\alpha+\beta_2d^\ast+\sum_k\gam
 $$ \begin{aligned} &m^\ast(d^\ast+\delta,\mathbf x^\ast)-m^\ast(d^\ast,\mathbf x^\ast)\\ &=-\frac{\alpha+\beta_2(d^\ast+\delta)+\sum_k\gamma_{2k}x_k^\ast} {\phi_1+\phi_2} +\frac{\alpha+\beta_2d^\ast+\sum_k\gamma_{2k}x_k^\ast} {\phi_1+\phi_2}\\ &=-\frac{\beta_2\delta}{\phi_1+\phi_2}. \end{aligned} $$
 因此，每单位永久制度变化对应的稳态民意差为
 $$ \boxed{ L= \frac{\partial m^\ast}{\partial d^\ast} =\lim_{\delta\to0} \frac{m^\ast(d^\ast+\delta,\mathbf x^\ast)-m^\ast(d^\ast,\mathbf x^\ast)}{\delta} =-\frac{\beta_2}{\phi_1+\phi_2}} $$
-截距和控制变量在这一步抵消，是因为两个均衡共用这些量。**它们决定均衡水平的位置，$\beta_2/[-(\phi_1+\phi_2)]$ 决定在控制变量固定时，均衡水平随制度改变的斜率。** $\beta_1$ 则控制制度变化发生当年的反应，并影响随后走向稳态的路径。到达稳态时，制度年度变化已为零，所以它不出现在这个斜率里。
+截距和控制变量在这一步抵消，是因为两个均衡共用这些量。$-\frac{\beta_2}{(\phi_1+\phi_2)}$ 决定均衡水平随制度改变的斜率，$\beta_1$ 则控制制度变化发生当年的反应，到达稳态时，制度年度变化已为零，所以它不应该出现在这个斜率里。
